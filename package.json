@@ -1,0 +1,29 @@
+{
+  "name": "developer-technical-interview",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "sanitize-html": "^2.17.0",
+    "tailwindcss": "^4.1.13",
+    "vue": "^3.5.18"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@types/sanitize-html": "^2.16.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.7.0",
+    "daisyui": "^5.1.13",
+    "fs": "^0.0.1-security",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vue-tsc": "^3.0.5"
+  }
+}
